@@ -1,0 +1,82 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-half { width: 50%; }
+  .mode-portrait .sl-half { width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-8">
+      <span class="text-xs font-semibold tracking-widest uppercase" style="color:#0d9488;">Why CleanFlow</span>
+    </div>
+
+    <!-- Split body -->
+    <div class="sl-layout flex flex-1 gap-8">
+
+      <!-- Problem -->
+      <div class="sl-half flex flex-col">
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-6 h-6 rounded-full flex items-center justify-center" style="background:#fee2e2;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </div>
+          <h2 class="text-sm font-bold tracking-wide uppercase" style="color:#dc2626;">The Problem</h2>
+        </div>
+
+        <h3 class="text-2xl font-bold leading-snug mb-4" style="color:#0f172a;">
+          Great cleans lost to<br/>poor operations.
+        </h3>
+
+        <div class="space-y-4 flex-1">
+          <div class="rounded-xl p-4" style="background:#fef2f2; border-left: 3px solid #dc2626;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Bookings fall through the cracks</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Jobs managed across texts, emails, and spreadsheets. Double-bookings, missed slots, and no single source of truth.</p>
+          </div>
+          <div class="rounded-xl p-4" style="background:#fef2f2; border-left: 3px solid #dc2626;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Teams don't know where to go</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Assignments via phone calls or group chats. No brief, no accountability, no visibility into who's available.</p>
+          </div>
+          <div class="rounded-xl p-4" style="background:#fef2f2; border-left: 3px solid #dc2626;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Quality problems surface too late</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Client dissatisfaction discovered when they cancel — not after every visit when it could still be fixed.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="w-px self-stretch" style="background:#e2e8f0;"></div>
+
+      <!-- Solution -->
+      <div class="sl-half flex flex-col">
+        <div class="flex items-center gap-2 mb-5">
+          <div class="w-6 h-6 rounded-full flex items-center justify-center" style="background:#ccfbf1;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#0d9488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h2 class="text-sm font-bold tracking-wide uppercase" style="color:#0d9488;">The Solution</h2>
+        </div>
+
+        <h3 class="text-2xl font-bold leading-snug mb-4" style="color:#0f172a;">
+          One platform. Full<br/>operational clarity.
+        </h3>
+
+        <div class="space-y-4 flex-1">
+          <div class="rounded-xl p-4" style="background:#f0fdf4; border-left: 3px solid #10b981;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Visual scheduling calendar</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Drag-and-drop job management. Every booking in one place — created, edited, and rescheduled in seconds.</p>
+          </div>
+          <div class="rounded-xl p-4" style="background:#f0fdf4; border-left: 3px solid #10b981;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Team dispatch with full context</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Assign crews per job with availability awareness. Teams see their schedule, address, and briefing — nothing missed.</p>
+          </div>
+          <div class="rounded-xl p-4" style="background:#f0fdf4; border-left: 3px solid #10b981;">
+            <p class="text-sm font-semibold mb-1" style="color:#0f172a;">Automated feedback loop</p>
+            <p class="text-xs leading-relaxed" style="color:#64748b;">Post-visit feedback requests sent automatically. Ratings and comments tracked per client so issues are caught early.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
