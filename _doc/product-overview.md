@@ -1,0 +1,1 @@
+Build me an app for cleaning service owners to help them schedule cleanings, assign teams, and track client feedback with the goal to deliver consistent quality and grow the client base
