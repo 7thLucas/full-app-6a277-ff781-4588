@@ -28,11 +28,11 @@ build:
         - '*.css'
         - '*.json'
         - '*.html'
-      auto:
-        manual:
-        - src: 'package.json'
-          dest: '.'
-          strip: ''
+      auto: true
+      manual:
+      - src: 'package.json'
+        dest: '.'
+        strip: ''
 manifests:
   rawYaml:
     - k8s/*.yaml
